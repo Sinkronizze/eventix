@@ -177,9 +177,9 @@ eventix-monorepo/
 | :--- | :--- | :--- |
 | **System Architect** | Zie | Documentation, schema design, quality audits, deployment |
 | **UI/UX Designer** | Jomari | Figma prototypes, design system, visual assets |
-| **Frontend Dev 1** | [Name] | Organization Portal (Web-optimized dashboards, scanner UI) |
-| **Frontend Dev 2** | [Name] | Member Portal (Mobile-first, wallet, social features) |
-| **Backend Dev** | [Name] | REST API, database, cryptography, payment integration |
+| **Frontend Dev 1** | Charles | Organization Portal (Web-optimized dashboards, scanner UI) |
+| **Frontend Dev 2** | Paul | Member Portal (Mobile-first, wallet, social features) |
+| **Backend Dev** | Jericho | REST API, database, cryptography, payment integration |
 
 ---
 

@@ -24,7 +24,7 @@
     *   **Handoff:** Provide exact CSS values, hex codes, and asset exports to the Frontend Developers.
 
 ## 3. Frontend Developer 1 (Organization Portal)
-**Assigned To:** [Frontend 1 Name]
+**Assigned To:** Charles
 **Core Focus:** Web-optimized dashboards, data tables, and complex form interactions.
 **Environment:** Next.js `app/(organization)`
 
@@ -35,7 +35,7 @@
     *   **API Integration:** Connect the frontend to the secure Next.js BFF routes to fetch analytics, manage members, and process CRUD operations.
 
 ## 4. Frontend Developer 2 (Member Portal)
-**Assigned To:** [Frontend 2 Name]
+**Assigned To:** Paul
 **Core Focus:** Mobile-first interactions, digital wallets, and frictionless checkout flows.
 **Environment:** Next.js `app/(member)`
 
@@ -46,7 +46,7 @@
     *   **Public Profile:** Construct the read-only "Trophy Room" view for members to share their verifiable attendance records.
 
 ## 5. Backend Developer
-**Assigned To:** [Backend Name]
+**Assigned To:** Jericho
 **Core Focus:** Core REST API, PostgreSQL database, security logic, and cryptography.
 **Environment:** Render/Railway (API Engine) + Supabase (Database)
 
@@ -64,6 +64,6 @@
 | :--- | :--- | :--- | :--- |
 | **System Architect** | Zie | Documentation, Schemas, Timelines | Guides the entire team; validates all outputs against the plan. |
 | **UI/UX Designer** | Jomari | Figma Prototypes, Design System | Feeds visual blueprints directly to both Frontend Developers. |
-| **Frontend Dev 1** | [Name] | Org Portal (Desktop/Web) | Consumes Backend APIs; reports to Architect on feature completion. |
-| **Frontend Dev 2** | [Name] | Member Portal (Mobile) | Consumes Backend APIs; reports to Architect on feature completion. |
-| **Backend Dev** | [Name] | REST API, Database, Auth Logic | Provides the data foundation for both Frontends; follows Architect's schema. |
+| **Frontend Dev 1** | Charles | Org Portal (Desktop/Web) | Consumes Backend APIs; reports to Architect on feature completion. |
+| **Frontend Dev 2** | Paul | Member Portal (Mobile) | Consumes Backend APIs; reports to Architect on feature completion. |
+| **Backend Dev** | Jericho | REST API, Database, Auth Logic | Provides the data foundation for both Frontends; follows Architect's schema. |
