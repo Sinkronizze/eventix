@@ -65,36 +65,36 @@ EvenTix provides:
 ┌──────────────────────────────────────────────────────────────────┐
 │                    PRESENTATION LAYER (Vercel)                   │
 ├──────────────────────────────────────────────────────────────────┤
-│  Next.js Frontend Monorepo                                        │
+│  Next.js Frontend Monorepo                                       │
 │  ├─ Organization Portal (Web-Optimized)    [Frontend Dev 1]      │
 │  ├─ Member Portal (Mobile-First)           [Frontend Dev 2]      │
 │  └─ Backend-for-Frontend (BFF) Proxy       [Secure Auth]         │
 └──────────────────────────────┬───────────────────────────────────┘
                                │
-         ┌─────────────────────┴──────────────────────┐
-         │  Next.js API Routes              │
+         ┌─────────────────────┴─────────────────────┐
+         │  Next.js API Routes                       │
          │  (HTTP-only cookies, rate limiting)       │
          │
 ┌────────▼─────────────────────────────────────────┐
 │       APPLICATION LAYER (Render/Railway)         │
 ├──────────────────────────────────────────────────┤
 │  RESTful API (Express/NestJS)                    │
-│  ├─ Authentication & RBAC (JWT + Middleware)    │
-│  ├─ Cryptographic QR Engine (Secure Hashing)    │
-│  ├─ Financial Logic (Cart, Refunds, Payouts)    │
-│  ├─ Real-Time Attendance Verification           │
-│  └─ Evaluation & Certificate Generation         │
+│  ├─ Authentication & RBAC (JWT + Middleware)     │
+│  ├─ Cryptographic QR Engine (Secure Hashing)     │
+│  ├─ Financial Logic (Cart, Refunds, Payouts)     │
+│  ├─ Real-Time Attendance Verification            │
+│  └─ Evaluation & Certificate Generation          │
 └────────┬─────────────────────────────────────────┘
          │
 ┌────────▼─────────────────────────────────────────┐
 │       DATA LAYER (Supabase - PostgreSQL)         │
 ├──────────────────────────────────────────────────┤
 │  Relational Database                             │
-│  ├─ Users & Organizations (RBAC)                │
-│  ├─ Events & Tiered Ticketing                   │
-│  ├─ Tickets & Attendance Logs                   │
-│  ├─ Transactions & Financial Ledger             │
-│  └─ Post-Event Evaluations & Certificates       │
+│  ├─ Users & Organizations (RBAC)                 │
+│  ├─ Events & Tiered Ticketing                    │
+│  ├─ Tickets & Attendance Logs                    │
+│  ├─ Transactions & Financial Ledger              │
+│  └─ Post-Event Evaluations & Certificates        │
 └──────────────────────────────────────────────────┘
 ```
 
